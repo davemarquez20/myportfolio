@@ -8,13 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi! I'm <span className="purple">Dave</span>, a Web
-            Developer/Programmer with industry experience building market
-            research web applications.
-            <br />
-            I've graduated as a{" "}
-            <span className="purple">Computer Engineer</span> with a major in
-            <span className="purple">Software Engineering</span>.
+            Hi! I'm <span className="purple">Dave</span>, a Web{" "}
+            <span className="purple">Developer/Programmer</span> with industry
+            experience building market research web applications.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
