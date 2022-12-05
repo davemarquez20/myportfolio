@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Omnifood from "../../Assets/Projects/omnifood.png";
+import Omnifood from "../../Assets/Projects/omnifood.jpg";
 import TimeKeeper from "../../Assets/Projects/timekeeper.png";
-import CockTails from "../../Assets/Projects/cocktails.png";
+import CockTails from "../../Assets/Projects/cocktails.jpg";
 import Marites from "../../Assets/Projects/marites.PNG";
 import Hacker from "../../Assets/Projects/hacker.png";
 import Youtube from "../../Assets/Projects/yt.jpg";
+import Dojo from "../../Assets/Projects/dojo.PNG";
 
 function Projects() {
   return (
@@ -41,6 +42,17 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
               description="An application used by the human resource team to manage attendance for payroll purposes. This will allow employees to keep track of their attendance on the fly and apply leaves etc. This was created using React JS and Googles Firebase. Source code and Demo not available since it's a propriety software."
               ghLink="https://github.com/davemarquez20"
               demoLink="https://github.com/davemarquez20"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dojo}
+              isBlog={false}
+              title="The Dojo Project"
+              description="A project management application created using React JS and Googles Firebase. It will allow you to manage project through the use of the dojo dashboard. The dashboard will provide the overview of the list of projects that is currently being worked on. Each user can add comment to a project as well as add a new project. This is a capstone project from Shaun Pelling"
+              ghLink="https://github.com/davemarquez20/thedojoproject"
+              demoLink="https://the-dojo-site-5b4a4.web.app/login"
             />
           </Col>
 
