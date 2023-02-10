@@ -9,6 +9,10 @@ import Marites from "../../Assets/Projects/marites.PNG";
 import Hacker from "../../Assets/Projects/hacker.png";
 import Youtube from "../../Assets/Projects/yt.jpg";
 import Dojo from "../../Assets/Projects/dojo.PNG";
+import Tindog from "../../Assets/Projects/TinDog.png";
+import Github from "../../Assets/Projects/GitHub.PNG";
+
+
 
 function Projects() {
   return (
@@ -27,7 +31,7 @@ function Projects() {
               imgPath={Omnifood}
               isBlog={false}
               title="Omnifood"
-              description="Home page for a mobile App named omnifood: A healthy meal delivered to your door, every single day
+              description="Landing home page for a mobile App named omnifood: A healthy meal delivered to your door, every single day
 The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. This is a capstone project from Jonathan Schedtmann"
               ghLink="https://github.com/davemarquez20/omnifood"
               demoLink="https://emdee-omnifood.netlify.app/"
@@ -36,10 +40,21 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Tindog}
+              isBlog={false}
+              title="Tindog App"
+              description="A landing webpage created using html, css, javascript and bootstrap. This is a capstone project from Angelica Yu. Tindog is an app use to meet people with the love for dogs."
+              ghLink="https://github.com/davemarquez20/tindog"
+              demoLink="https://davemarquez20.github.io/tindog/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={TimeKeeper}
               isBlog={false}
               title="M3C Time Keeper App"
-              description="An application used by the human resource team to manage attendance for payroll purposes. This will allow employees to keep track of their attendance on the fly and apply leaves etc. This was created using React JS and Googles Firebase. Source code and Demo not available since it's a propriety software."
+              description="An application used by the human resource team to manage attendance for payroll purposes. This will allow employees to keep track of their attendance on the fly and apply leaves etc. This was created using React JS and Googles Firebase. Source code and Demo not available since it's a propriety software created by Mark Dave for the company."
               ghLink="https://github.com/davemarquez20"
               demoLink="https://github.com/davemarquez20"
             />
@@ -53,6 +68,17 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
               description="A project management application created using React JS and Googles Firebase. It will allow you to manage project through the use of the dojo dashboard. The dashboard will provide the overview of the list of projects that is currently being worked on. Each user can add comment to a project as well as add a new project. This is a capstone project from Shaun Pelling"
               ghLink="https://github.com/davemarquez20/thedojoproject"
               demoLink="https://the-dojo-site-5b4a4.web.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Github}
+              isBlog={false}
+              title="Github Repository Search"
+              description="An application created using React JS that will allow the users to provide some statistics using graphs based from a specific user in Github. Users needs to be registered to use this app then they can input the username of the github user to show the stats."
+              ghLink="https://github.com/davemarquez20/github-search-user"
+              demoLink="https://githubsearchmd.netlify.app/"
             />
           </Col>
 
@@ -99,6 +125,8 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
               demoLink="https://lucent-peony-cdd8fd.netlify.app/"
             />
           </Col>
+
+         
         </Row>
       </Container>
     </Container>
