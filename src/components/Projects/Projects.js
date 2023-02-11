@@ -11,8 +11,7 @@ import Youtube from "../../Assets/Projects/yt.jpg";
 import Dojo from "../../Assets/Projects/dojo.PNG";
 import Tindog from "../../Assets/Projects/TinDog.png";
 import Github from "../../Assets/Projects/GitHub.PNG";
-
-
+import M3C from "../../Assets/Projects/m3cwebsite.png";
 
 function Projects() {
   return (
@@ -46,6 +45,17 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
               description="A landing webpage created using html, css, javascript and bootstrap. This is a capstone project from Angelica Yu. Tindog is an app use to meet people with the love for dogs."
               ghLink="https://github.com/davemarquez20/tindog"
               demoLink="https://davemarquez20.github.io/tindog/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={M3C}
+              isBlog={false}
+              title="M3C Website"
+              description="A website for M3C General Foods Inc Company. The client wants to have a very simple website with a pink theme with no fancy effects."
+              ghLink="https://github.com/davemarquez20/m3c"
+              demoLink="https://m3cgenfoods.com/"
             />
           </Col>
 
@@ -125,8 +135,6 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
               demoLink="https://lucent-peony-cdd8fd.netlify.app/"
             />
           </Col>
-
-         
         </Row>
       </Container>
     </Container>
